@@ -1,0 +1,259 @@
+@CHARSET "UTF-8";
+
+body{
+	background: #333333;
+	margin: 30px;
+	font-family: 'Lato', sans-serif;
+}
+
+.header-bar{
+	background: #60696d;
+	width: 100%;
+	height: 50px;
+	margin: 0px;
+	font-family: 'Oswald', sans-serif;
+}
+
+.fa-wrench {
+	color: #d44a4a;
+	background: #333333;
+    font-size: 10px;
+    border-radius: 3px;
+    padding: 3px;
+}
+
+.header-bar-title{
+	position: relative;
+	top: -5px;
+	padding-left: 10px;
+	color: white;
+	font-size: 38px;
+	display:inline-block
+}
+
+.btn-add-vehicle{
+	float: right;
+	background: #d44a4a;
+	width: 50px;
+	height: 50px;
+	color: white;
+	font-size: 50px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.btn-add-vehicle:hover { 
+    background-color: #ff962a;
+}
+
+.btn-add-vehicle:active {
+	background-color: #026c79;
+}
+
+.btn-add-vehicle-plus{
+	position: relative;
+	height: 50px;
+	top:-17px;
+}
+
+.btn-add-vehicle-arrow{
+	position: relative;
+	top: 16px;
+	height: 50px;
+	font-size: 20px;
+}
+
+.dashboard-bar{
+	width: 100%;
+	height: 35px;
+	background: #4d4d4d;
+	text-align: center;
+	color: white;
+	margin-bottom:1px;
+	-webkit-box-shadow:0 4px 4px -4px #000;
+	box-shadow:0 4px 4px -4px #000;
+}
+
+.table-data, .table-customer-info{
+	width: 100%;
+	color: white;
+	border-collapse: collapse;
+	text-align: center;
+}
+
+.table-data, .table-data > tbody > tr > th, .table-data > tbody > tr > td {
+	border-top: 10px solid #333333;
+}
+
+.table-row-header{
+	height: 50px;
+	background: #505356;
+}
+
+.table-row-data{
+	height: 80px;
+	cursor: pointer;
+    color: #c5c5c5;
+    background: #3a3a3a;
+}
+
+.table-row-data:hover{
+	background: #d44a4a;
+}
+
+.table-task-row-data{
+	height: 80px;
+	color: #c5c5c5;
+    background: #3a3a3a;
+}
+
+.sendDeleteForm{
+	background-color: Transparent;
+	color: white;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
+
+.customer-detail{
+	width: 300px;
+    border: 1px solid #d44a4a;
+    border-radius: 3px;
+    margin: 10px;
+    background: #d44a4a;
+    color: white;
+    padding: 10px;
+}
+
+#save-tasks{
+	float: right;
+	background-color: #6cd44a;
+	color: white;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    padding: 10px;
+    margin: 10px;
+}
+
+.save-tasks-disabled {
+	background-color: #545454 !important;
+    color: #6f6f6f !important;
+}
+
+#userForm {
+    width: 300px;
+    margin: 0 auto;
+}
+
+#pop-up-fade {
+	width:100%;
+	height:100%;
+	opacity:.65;
+	top:0;
+	left:0;
+	display:none;
+	position:fixed;
+	background-color:#313131;
+	overflow:auto;
+	z-index: 1;
+}
+
+#pop-up-form {
+	background: white;
+	position:absolute;
+	display:none;
+	width:400px;
+	height:420px;
+	top:50%;
+	left:50%;
+	margin-top: -200px;
+	margin-left: -210px;
+	z-index: 2;
+}
+
+.pop-up-form-header{
+	width: 100%;
+	height: 50px;
+	background: #d44a4a;
+	color: white;
+}
+
+.pop-up-form-header-text{
+	padding: 10px;
+	font-size: 20px;
+}
+
+.pop-up-form-fields{
+	padding: 10px;
+}
+
+#sendAddForm{
+	position: absolute;
+	background-color: #d44a4a;
+	width: 100%;
+	padding: 10px;
+	color: white;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    bottom: 0;
+    left: 0;
+}
+
+.selected-radio{
+    border: 1px solid #464646;
+    border-radius: 3px;
+}
+
+.hidden-radio{
+	display: none;
+}
+
+.change-radio{
+	background: #d44a4a;
+	border-radius: 3px;
+}
+
+.status-radio{
+	cursor: pointer;
+	width: 40px;
+	padding: 10px;
+}
+
+.add-form-label{
+	display: inline-block;
+	width: 130px;
+	font-size: 13px;
+	color: grey;
+}
+
+.add-form-input{
+	height: 30px;
+	width: 200px;
+    border: 1px solid #e8e8e8;
+    border-radius: 3px;
+    padding: 5px;
+    text-align: center;
+    background: white;
+}
+
+.add-form-select{
+	height: 45px;
+	width: 212px;
+    border: 1px solid #e8e8e8;
+    border-radius: 3px;
+    padding: 5px;
+    text-align: center;
+    background: white;
+}
+
+.add-form-fields{
+	margin: 10px;
+}
